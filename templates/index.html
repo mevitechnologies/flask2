@@ -2,6 +2,43 @@
 
 {% block content %}
 
-<h1>hey how are you</h1>
+<form action="/submit" method="post">
+    <label for="StartAge">Start Age:</label><br>
+    <input type="number" id="StartAge" name="StartAge" value="0"><br>  
+   
+    <label for="EndAge">End Age:</label><br>
+    <input type="number" id="EndAge" name="EndAge" value="0"><br>
+
+    <label for="menopause">menopause:</label><br>
+    <input type="number" id="menopause" name="menopause" value="0"><br>
+   
+    <label for="Starttumorsize">Start tumor size:</label><br>
+    <input type="number" id="Starttumorsize" name="Starttumorsize" value="0"><br>
+  
+    <label for="endtumorsize">End tumor size:</label><br>
+    <input type="number" id="endtumorsize" name="endtumorsize" value="0"><br>
+
+    <label for="Start_env_nodes">Start env nodes:</label><br>
+    <input type="number" id="Start_env_nodes" name="Start_env_nodes" value="0"><br>
+   
+    <label for="end_env_nodes">end env nodes:</label><br>
+    <input type="number" id="end_env_nodes" name="end_env_nodes" value="0"><br>
+
+    <label for="node_caps">node-caps:</label><br>
+    <input type="number" id="node_caps" name="node_caps" value="0"><br>
+   
+    <label for="deg_malig">deg-malig:</label><br>
+    <input type="number" id="deg_malig" name="deg_malig" value="0"><br>
+  
+    <label for="breast">breast:</label><br>
+    <input type="number" id="breast" name="breast" value="0"><br>
+  
+    <label for="breast_quad">breast-quad:</label><br>
+    <input type="number" id="breast_quad" name="breast_quad" value="0"><br>
+   
+    <label for="irradiat">irradiat:</label><br>
+    <input type="number" id="irradiat" name="irradiat" value="0"><br>
+   <input type="submit" value="Submit">
+</form>
 
 {% endblock %}
