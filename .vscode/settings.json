@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/ae63418c-6284-4bf1-a7e5-b6faca6a342b/resourceGroups/bcrpediction_group/providers/Microsoft.Web/sites/bcRePrediction",
+    "appService.deploySubpath": "."
+}
